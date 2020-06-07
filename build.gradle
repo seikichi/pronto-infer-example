@@ -1,0 +1,16 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile group: 'net.jcip', name: 'jcip-annotations', version: '1.0'
+}
+
+application {
+  mainClassName = 'com.github.seikichi.pronto.infer.example.App'
+}
